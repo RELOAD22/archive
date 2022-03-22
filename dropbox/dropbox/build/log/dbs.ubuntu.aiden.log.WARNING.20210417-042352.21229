@@ -1,0 +1,4 @@
+Log file created at: 2021/04/17 04:23:52
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0417 04:23:52.228053 21242 user_actions.cpp:129] open file(wb) error

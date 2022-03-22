@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread   CMakeFiles/pc.dir/pc/main.cpp.o CMakeFiles/pc.dir/lib/Log.cpp.o CMakeFiles/pc.dir/lib/netdisk.cpp.o  -o pc 

@@ -1,0 +1,15 @@
+Log file created at: 2021/04/17 03:16:47
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 03:16:47.906270 11805 main.cpp:27] LOG system start
+I0417 03:16:54.460932 11805 tcpserver.cpp:126] accept new connection
+I0417 03:17:03.805019 11839 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 03:17:03.805388 11839 user_actions.cpp:239] login json: {"password":"pass1","username":"USR1"}
+I0417 03:17:07.332020 11839 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 03:17:07.332446 11839 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 03:17:07.332518 11839 user_actions.cpp:257] set cookie:Db90q8fW50J9A2ENn4lB
+I0417 03:17:09.809221 11839 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 03:17:09.809588 11839 user_actions.cpp:74] right cookie:Db90q8fW50J9A2ENn4lB
+I0417 03:17:09.809610 11839 user_actions.cpp:215] opendir: "/"
+I0417 03:17:16.597131 11839 tcpserver.cpp:51] release connection
+I0417 03:17:36.786213 11805 tcpserver.cpp:126] accept new connection

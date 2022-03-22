@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -Wall  -O0 -Wall -g2 -ggdb   CMakeFiles/client.dir/pc/main.cpp.o CMakeFiles/client.dir/lib/Log.cpp.o CMakeFiles/client.dir/lib/netdisk.cpp.o  -o client  -lssl -lcrypto 

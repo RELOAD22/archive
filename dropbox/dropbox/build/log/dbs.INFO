@@ -1,0 +1,23 @@
+Log file created at: 2021/04/17 04:51:13
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:51:13.932214 24686 main.cpp:27] LOG system start
+I0417 04:51:16.078378 24686 tcpserver.cpp:126] accept new connection
+I0417 04:54:08.025465 24697 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 04:54:08.025583 24697 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 04:54:08.025660 24697 user_actions.cpp:257] set cookie:62p7xBZu01ZRZL8llUcg
+I0417 04:54:45.731408 24697 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:54:45.731523 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 04:54:45.731539 24697 user_actions.cpp:215] opendir: "/"
+I0417 05:10:32.368635 24697 user_actions.cpp:346] recv control msg: type:41 size:34
+I0417 05:10:32.369407 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 05:16:43.047494 24697 user_actions.cpp:346] recv control msg: type:41 size:34
+I0417 05:16:43.047598 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 05:27:19.702062 24697 user_actions.cpp:346] recv control msg: type:41 size:34
+I0417 05:27:19.702230 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 05:27:40.081765 24686 tcpserver.cpp:126] accept new connection
+I0417 05:48:19.944880 24697 user_actions.cpp:346] recv control msg: type:41 size:34
+I0417 05:48:19.944999 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 05:54:34.068420 24697 user_actions.cpp:346] recv control msg: type:41 size:34
+I0417 05:54:34.068557 24697 user_actions.cpp:74] right cookie:62p7xBZu01ZRZL8llUcg
+I0417 05:59:55.245229 24697 tcpserver.cpp:51] release connection

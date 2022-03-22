@@ -1,0 +1,37 @@
+Log file created at: 2021/04/17 02:57:52
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 02:57:52.613474  8365 main.cpp:27] There is info !!!
+E0417 02:57:52.613780  8365 main.cpp:28] There is error !!!
+I0417 02:58:52.779994  8365 tcpserver.cpp:126] accept new connection
+I0417 03:01:05.452597  8533 tcpserver.cpp:51] release connection
+I0417 03:09:28.327078  8365 tcpserver.cpp:126] accept new connection
+I0417 03:09:42.056388 10319 tcpserver.cpp:51] release connection
+I0417 03:10:56.748128  8365 tcpserver.cpp:126] accept new connection
+I0417 03:11:05.939419 10643 user_actions.cpp:344] recv control msg: type:11 size:39
+I0417 03:11:05.939812 10643 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 03:11:05.940083 10643 user_actions.cpp:257] set cookie:5A5b1JRmwmM1DM2vOja5
+I0417 03:11:12.928673 10643 user_actions.cpp:344] recv control msg: type:11 size:71
+I0417 03:11:12.929304 10643 user_actions.cpp:239] login json: {"cookie":"5A5b1JRmwmM1DM2vOja5","password":"pass1","username":"usr1"}
+I0417 03:11:12.929361 10643 user_actions.cpp:257] set cookie:5kkPaeCmpABWRz9LEu9i
+I0417 03:11:14.603698 10643 user_actions.cpp:344] recv control msg: type:21 size:48
+I0417 03:11:14.603771 10643 user_actions.cpp:74] right cookie:5kkPaeCmpABWRz9LEu9i
+I0417 03:11:14.603786 10643 user_actions.cpp:215] opendir: "/"
+I0417 03:11:21.739188 10643 user_actions.cpp:344] recv control msg: type:11 size:71
+I0417 03:11:21.739259 10643 user_actions.cpp:239] login json: {"cookie":"5kkPaeCmpABWRz9LEu9i","password":"pass1","username":"usr2"}
+I0417 03:11:24.671977 10643 user_actions.cpp:344] recv control msg: type:11 size:71
+I0417 03:11:24.672128 10643 user_actions.cpp:239] login json: {"cookie":"5kkPaeCmpABWRz9LEu9i","password":"pass1","username":"usr1"}
+I0417 03:11:24.672437 10643 user_actions.cpp:257] set cookie:V2yx0MJqm7DF20Kq83YC>
+I0417 03:11:27.825233 10643 user_actions.cpp:344] recv control msg: type:21 size:49
+I0417 03:11:27.825345 10643 user_actions.cpp:74] right cookie:V2yx0MJqm7DF20Kq83YC>
+I0417 03:11:27.825364 10643 user_actions.cpp:215] opendir: "/"
+I0417 03:11:32.831537 10643 user_actions.cpp:344] recv control msg: type:32 size:80
+I0417 03:11:32.831624 10643 user_actions.cpp:74] right cookie:V2yx0MJqm7DF20Kq83YC>
+I0417 03:11:44.843478 10643 user_actions.cpp:143] new file has been created:.//usr1/CMakeCache.txt
+I0417 03:11:44.848028 10643 user_actions.cpp:344] recv control msg: type:21 size:49
+I0417 03:11:44.848102 10643 user_actions.cpp:74] right cookie:V2yx0MJqm7DF20Kq83YC>
+I0417 03:11:44.848134 10643 user_actions.cpp:215] opendir: "/"
+I0417 03:11:46.622167 10643 user_actions.cpp:344] recv control msg: type:21 size:49
+I0417 03:11:46.622547 10643 user_actions.cpp:74] right cookie:V2yx0MJqm7DF20Kq83YC>
+I0417 03:11:46.622575 10643 user_actions.cpp:215] opendir: "/"
+I0417 03:12:03.485942 10643 tcpserver.cpp:51] release connection

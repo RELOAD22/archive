@@ -1,0 +1,4 @@
+Log file created at: 2021/04/17 03:59:50
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0417 03:59:50.123026 17627 tcpserver.cpp:101] bind listen socket fd: Address already in use [98]

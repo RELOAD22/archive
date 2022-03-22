@@ -1,0 +1,25 @@
+Log file created at: 2021/04/17 04:00:25
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:00:25.066231 17698 main.cpp:27] LOG system start
+I0417 04:00:27.688141 17698 tcpserver.cpp:126] accept new connection
+I0417 04:00:34.605187 17710 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 04:00:34.605280 17710 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 04:00:34.605351 17710 user_actions.cpp:257] set cookie:UgQIrFYTk9rafW2LsxO2
+I0417 04:00:39.593922 17710 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:00:39.594008 17710 user_actions.cpp:74] right cookie:UgQIrFYTk9rafW2LsxO2
+I0417 04:00:39.594033 17710 user_actions.cpp:215] opendir: "/"
+I0417 04:00:44.400961 17710 user_actions.cpp:346] recv control msg: type:33 size:64
+I0417 04:00:44.401036 17710 user_actions.cpp:74] right cookie:UgQIrFYTk9rafW2LsxO2
+I0417 04:00:44.401553 17710 user_actions.cpp:197] deletepath: "CMakeCache.txt"
+I0417 04:00:44.401717 17710 user_actions.cpp:201] try to delete file:./userspace//usr1/CMakeCache.txt
+I0417 04:00:44.401819 17710 user_actions.cpp:209] delete file:./userspace//usr1/CMakeCache.txt
+I0417 04:00:48.256788 17710 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:00:48.256860 17710 user_actions.cpp:74] right cookie:UgQIrFYTk9rafW2LsxO2
+I0417 04:00:48.256886 17710 user_actions.cpp:215] opendir: "/"
+I0417 04:01:03.594075 17710 tcpserver.cpp:51] release connection
+I0417 04:01:50.399628 17698 tcpserver.cpp:126] accept new connection
+I0417 04:01:59.585089 17942 tcpserver.cpp:51] release connection
+I0417 04:03:16.384826 17698 tcpserver.cpp:126] accept new connection
+I0417 04:03:23.050035 18157 tcpserver.cpp:51] release connection
+I0417 04:05:00.068848 17698 tcpserver.cpp:126] accept new connection

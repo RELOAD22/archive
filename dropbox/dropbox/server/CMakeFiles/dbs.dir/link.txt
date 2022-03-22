@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread   CMakeFiles/dbs.dir/main.cpp.o CMakeFiles/dbs.dir/tcpserver.cpp.o CMakeFiles/dbs.dir/lib/log/Log.cpp.o  -o dbs 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -Wall  -O0 -Wall -g2 -ggdb   CMakeFiles/dbs.dir/server/main.cpp.o CMakeFiles/dbs.dir/server/tcpserver.cpp.o CMakeFiles/dbs.dir/server/user_actions.cpp.o CMakeFiles/dbs.dir/lib/netdisk.cpp.o  -o build/dbs  -lssl -lcrypto -lgflags -lglog -ljsoncpp 

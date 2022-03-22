@@ -1,0 +1,41 @@
+Log file created at: 2021/04/17 04:18:57
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:18:57.820853 20642 main.cpp:27] LOG system start
+I0417 04:19:00.795406 20642 tcpserver.cpp:126] accept new connection
+I0417 04:19:14.995666 20652 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 04:19:14.995746 20652 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 04:19:14.995810 20652 user_actions.cpp:257] set cookie:95k02OWCsuwi6U1on270
+I0417 04:19:18.111362 20652 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:19:18.111452 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:18.111482 20652 user_actions.cpp:215] opendir: "/"
+I0417 04:19:26.081449 20652 user_actions.cpp:346] recv control msg: type:31 size:53
+I0417 04:19:26.081569 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:26.081611 20652 user_actions.cpp:155] sending file: path:./userspace//usr1/file3
+I0417 04:19:27.082913 20652 user_actions.cpp:188] sending file finish
+I0417 04:19:36.966673 20652 user_actions.cpp:346] recv control msg: type:32 size:75
+I0417 04:19:36.966956 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:37.971971 20652 user_actions.cpp:143] new file has been created:./userspace//usr1/localfile.txt
+I0417 04:19:39.035327 20652 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:19:39.035401 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:39.035416 20652 user_actions.cpp:215] opendir: "/"
+I0417 04:19:45.875231 20652 user_actions.cpp:346] recv control msg: type:33 size:63
+I0417 04:19:45.875417 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:45.875484 20652 user_actions.cpp:197] deletepath: "localfile.txt"
+I0417 04:19:45.875509 20652 user_actions.cpp:201] try to delete file:./userspace//usr1/localfile.txt
+I0417 04:19:45.875839 20652 user_actions.cpp:209] delete file:./userspace//usr1/localfile.txt
+I0417 04:19:48.844295 20652 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:19:48.844362 20652 user_actions.cpp:74] right cookie:95k02OWCsuwi6U1on270
+I0417 04:19:48.844425 20652 user_actions.cpp:215] opendir: "/"
+I0417 04:20:00.807945 20652 user_actions.cpp:346] recv control msg: type:11 size:73
+I0417 04:20:00.808032 20652 user_actions.cpp:239] login json: {"cookie":"95k02OWCsuwi6U1on270","password":"pass1ss","username":"usr1"}
+I0417 04:20:15.895709 20652 user_actions.cpp:346] recv control msg: type:11 size:71
+I0417 04:20:15.895821 20652 user_actions.cpp:239] login json: {"cookie":"95k02OWCsuwi6U1on270","password":"pass2","username":"usr2"}
+I0417 04:20:18.965648 20652 user_actions.cpp:346] recv control msg: type:1 size:71
+I0417 04:20:18.965714 20652 user_actions.cpp:275] register json: {"cookie":"95k02OWCsuwi6U1on270","password":"pass2","username":"usr2"}
+I0417 04:20:22.906426 20652 user_actions.cpp:346] recv control msg: type:11 size:71
+I0417 04:20:22.906574 20652 user_actions.cpp:239] login json: {"cookie":"95k02OWCsuwi6U1on270","password":"pass2","username":"usr2"}
+I0417 04:20:22.906674 20652 user_actions.cpp:257] set cookie:gO63zdgqwCt0zbb44O7d
+I0417 04:20:25.378600 20652 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:20:25.378736 20652 user_actions.cpp:74] right cookie:gO63zdgqwCt0zbb44O7d
+I0417 04:20:25.378782 20652 user_actions.cpp:215] opendir: "/"

@@ -1,0 +1,4 @@
+Log file created at: 2021/04/17 04:00:13
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:00:13.610668 17679 main.cpp:27] LOG system start

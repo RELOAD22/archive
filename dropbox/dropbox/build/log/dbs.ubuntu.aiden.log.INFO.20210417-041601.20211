@@ -1,0 +1,30 @@
+Log file created at: 2021/04/17 04:16:01
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:16:01.604310 20211 main.cpp:27] LOG system start
+I0417 04:16:04.855149 20211 tcpserver.cpp:126] accept new connection
+I0417 04:16:18.155143 20222 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 04:16:18.155231 20222 user_actions.cpp:239] login json: {"password":"pass1","username":"usr1"}
+I0417 04:16:18.155298 20222 user_actions.cpp:257] set cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:16:21.500805 20222 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:16:21.500888 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:16:21.500918 20222 user_actions.cpp:215] opendir: "/"
+I0417 04:16:29.328011 20222 user_actions.cpp:346] recv control msg: type:33 size:63
+I0417 04:16:29.328085 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:16:29.328114 20222 user_actions.cpp:197] deletepath: "localfile.txt"
+I0417 04:16:29.328135 20222 user_actions.cpp:201] try to delete file:./userspace//usr1/localfile.txt
+I0417 04:16:29.328267 20222 user_actions.cpp:209] delete file:./userspace//usr1/localfile.txt
+I0417 04:16:32.813189 20222 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:16:32.813308 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:16:32.813336 20222 user_actions.cpp:215] opendir: "/"
+I0417 04:16:48.706635 20222 user_actions.cpp:346] recv control msg: type:31 size:53
+I0417 04:16:48.706722 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:16:48.706739 20222 user_actions.cpp:155] sending file: path:./userspace//usr1/file2
+I0417 04:16:49.707155 20222 user_actions.cpp:188] sending file finish
+I0417 04:17:02.504622 20222 user_actions.cpp:346] recv control msg: type:32 size:75
+I0417 04:17:02.504696 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:17:03.505604 20222 user_actions.cpp:143] new file has been created:./userspace//usr1/localfile.txt
+I0417 04:17:15.540205 20222 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:17:15.540288 20222 user_actions.cpp:74] right cookie:X6vkd8v7oks43N0eTQYo
+I0417 04:17:15.540385 20222 user_actions.cpp:215] opendir: "/"
+I0417 04:17:34.123767 20222 tcpserver.cpp:51] release connection

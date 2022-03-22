@@ -1,0 +1,30 @@
+Log file created at: 2021/04/17 04:25:31
+Running on machine: ubuntu
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0417 04:25:31.351500 21548 main.cpp:27] LOG system start
+I0417 04:25:34.511896 21548 tcpserver.cpp:126] accept new connection
+I0417 04:25:41.810549 21559 user_actions.cpp:346] recv control msg: type:11 size:39
+I0417 04:25:41.810631 21559 user_actions.cpp:239] login json: {"password":"pass2","username":"usr2"}
+I0417 04:25:41.810698 21559 user_actions.cpp:257] set cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:43.080399 21559 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:25:43.080473 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:43.080490 21559 user_actions.cpp:215] opendir: "/"
+I0417 04:25:45.612146 21559 user_actions.cpp:346] recv control msg: type:32 size:75
+I0417 04:25:45.612293 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:46.608285 21559 user_actions.cpp:143] new file has been created:./userspace//usr2/localfile.txt
+I0417 04:25:46.612006 21559 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:25:46.612078 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:46.612104 21559 user_actions.cpp:215] opendir: "/"
+I0417 04:25:50.631248 21559 user_actions.cpp:346] recv control msg: type:33 size:63
+I0417 04:25:50.631402 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:50.631494 21559 user_actions.cpp:197] deletepath: "localfile.txt"
+I0417 04:25:50.631553 21559 user_actions.cpp:201] try to delete file:./userspace//usr2/localfile.txt
+I0417 04:25:50.631784 21559 user_actions.cpp:209] delete file:./userspace//usr2/localfile.txt
+I0417 04:25:53.075532 21559 user_actions.cpp:346] recv control msg: type:21 size:48
+I0417 04:25:53.075629 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:53.075676 21559 user_actions.cpp:215] opendir: "/"
+I0417 04:25:57.019333 21559 user_actions.cpp:346] recv control msg: type:5 size:34
+I0417 04:25:57.019425 21559 user_actions.cpp:74] right cookie:H0zBVutR0lN7NmhmpD1i
+I0417 04:25:59.981696 21559 user_actions.cpp:346] recv control msg: type:11 size:71
+I0417 04:25:59.981783 21559 user_actions.cpp:239] login json: {"cookie":"H0zBVutR0lN7NmhmpD1i","password":"pass2","username":"usr2"}
+I0417 04:26:02.810078 21559 tcpserver.cpp:51] release connection
